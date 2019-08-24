@@ -1,0 +1,17 @@
+body {
+    background-image: url(../images/baseball.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    font-family: 'Lexend Peta', sans-serif;
+}
+.container {
+    margin: auto;
+    text-align: center;
+}
+#currentName, #totalWins, #remainingGuesses, #guessedLetters {
+    letter-spacing: 10px;
+    color: red;
+}
